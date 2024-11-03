@@ -1,0 +1,196 @@
+#gfood {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#hapus
+{
+    margin:0 10px;
+}
+
+.menu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.card p {
+    margin: 10px 0;
+    color: #666;
+    text-align: center;
+}
+
+.card .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.tambah {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.tambah h2 {
+    text-align: center;
+}
+
+.tambah label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tambah input[type="file"],
+.tambah input[type="text"],
+.tambah textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.tambah input[type="radio"] {
+    margin-right: 5px;
+}
+
+.tambah button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tambah button:hover {
+    background-color: #0056b3;
+}
+
+.edit {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.edit h2 {
+    text-align: center;
+}
+
+.edit label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit input[type="text"],
+.edit textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.edit input[type="radio"] {
+    margin-right: 5px;
+}
+
+.edit button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit button:hover {
+    background-color: #0056b3;
+}
+
+.search {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+.deleted-message {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background-color: #e04949; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-weight: bold;
+}

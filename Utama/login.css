@@ -1,0 +1,25 @@
+#login
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#kotak1
+{
+    font-size: 30px;
+    margin-left: 81px;
+}
+
+#kotak
+{
+    border-radius: 5px;
+    padding: 4px 30px;
+}
+
+#submit
+{
+    margin-top: 30px;
+    margin-left: 72px;
+    padding: 5px 25px;
+}

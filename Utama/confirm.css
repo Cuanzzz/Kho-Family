@@ -1,0 +1,48 @@
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu th, #menu td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000; 
+}
+
+#menu img {
+    max-width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000; 
+}
+
+#menu th {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+#menu td {
+    background-color: #fff;
+    color: #000;
+}
+
+#button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#orderr
+{
+    padding: 5px 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}

@@ -1,0 +1,99 @@
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#category-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#category {
+    padding: 5px;
+}
+
+#buttonsb {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#orderr {
+    padding: 5px 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 350px;
+    padding: 10px 20px;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto; 
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.card p {
+    margin: 10px 0;
+    color: #666;
+    text-align: center; 
+    max-height: 100px; 
+    overflow: auto;
+}
+
+
+.card input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.card .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}

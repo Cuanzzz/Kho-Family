@@ -1,0 +1,25 @@
+.food-details {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.food-details img {
+    max-width: 450px;
+    max-height: 250px;
+    border-radius: 5px;
+}
+
+.food-details h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.food-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}

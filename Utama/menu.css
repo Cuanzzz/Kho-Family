@@ -1,0 +1,95 @@
+.menu-cards::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.menu-cards::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+.menu-cards::-webkit-scrollbar-thumb {
+  background: #3a3b3c;
+  border-radius: 5px;
+}
+
+.menu-cards::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 768px) {
+  .menu-cards::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.menu {
+  text-align: left;
+  padding: 20px;
+  overflow: auto;
+}
+
+.menu-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  white-space: nowrap;
+  max-height: 350px;
+  scrollbar-width: thin;
+  scrollbar-color: #3a3b3c #f0f0f0;
+  overflow: auto;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  min-width: 250px;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  margin-top: 10px;
+  flex: 0 0 auto;
+}
+
+.card img {
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.navigation-buttons {
+  text-align: right;
+}
+
+.navigation-buttons a {
+  text-decoration: none;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
